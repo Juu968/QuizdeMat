@@ -1,0 +1,35 @@
+<html><head>
+	<title>Jogo:Quiz de Matemática!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="game.page.js"></script>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">Quiz de Matemática!</h2>
+		<br>
+		<h2 style="color: white;">Coloque dois números e descubra o resultado da multiplicação entre eles!</h2>
+		<div id="output" class="col-lg-6"> </div>
+		<br>
+		<br>
+		<h4>Número 1</h4>
+		<input type="text" id="number1" class="form-control" placeholder="Número 1">
+		<br>
+		<h4>Número 2</h4>
+		<input type="text" id="number2" class="form-control" placeholder="Número 2">
+		<br>
+		<button onclick="send()" class="btn btn-success" style="width: 30%;">Enviar</button>
+		<h4 id = "resu"> Resultado </h4>
+	</center>
+</div>
+
+
+</body></html>
+
